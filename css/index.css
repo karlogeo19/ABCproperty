@@ -1,0 +1,387 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 16px;
+	scroll-behavior: smooth;
+}
+
+
+body {
+	display: inline-block;
+	width: 100%;
+	min-height: 100vh;
+}
+
+#container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	max-width: 2000px;
+	min-width: 320px;
+	overflow: hidden;
+}
+
+.home-button{
+    
+    text-decoration:none;
+    cursor:pointer;
+}
+
+
+a:visited{
+
+    color:inherit;
+    text-decoration:none;
+}
+
+
+
+.heading{
+    text-align:left;
+    padding:15px;
+    padding-left:10%;
+    background-color:rgb(17, 69, 190);
+    width:100%;
+    height:70px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.violetWhiteShadow{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25pt;
+    color:rgb(255, 255, 255);
+
+}
+
+.signup-login-button{
+    display:flex;
+    gap:10px;
+}
+
+.signup{
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color:inherit;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left:auto;
+}
+
+.login {
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color:rgb(17, 69, 190);
+    color: white;
+    border:solid 2px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left:auto;
+}
+
+.signup:hover,
+.login:hover{
+    background-color:#04AA6D;
+}
+
+
+
+.maindivContainer{
+
+    width:100%;
+    display: flex;
+    flex-direction:row;
+}
+
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('../images/housebg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    width:100%;
+    height:750px;
+    float:left;
+    color:white;
+    
+}
+
+.div1 > button{
+    margin-top: 10px;
+}
+
+.div1 a{
+    text-decoration: none;
+    color:white;
+}
+
+.explore-button{
+    padding:10px 20px;
+    border-radius:10px;
+    background-color:rgb(149, 4, 4);
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+.explore-button2 {
+    padding: 8px 16px;
+    background-color:rgb(17, 69, 190);
+    color: white;
+    border:solid 2px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.explore-button:hover{
+    background-color:#04AA6D
+}
+
+.div1logo{
+    font-size:55px;
+    color:rgb(255, 255, 255);
+    font-family: 'Arial Narrow';
+    font-weight:bolder;
+}
+
+.div1logo2{
+    font-size:55px;
+    color:rgb(255, 255, 255);
+    font-family: 'Arial Narrow';
+    font-weight:lighter;
+       
+}
+
+
+body {
+    background-color:white;
+}
+
+.addPadding{
+    padding:10px;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left:9%;
+    overflow: hidden;
+    border: 1px solid rgb(252, 252, 251);
+    background-color:rgb(255, 255, 255);
+    width:100%;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: rgb(17, 69, 190);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover:not(.active){
+    background-color:rgb(149, 4, 4);
+    color:white;
+}
+
+li a.active{
+    color:white;
+    background-color: #04AA6D;
+}
+  
+
+
+.search-container {
+    float: right;
+}
+
+.search-container input[type="text"] {
+    padding: 7px;
+    margin-top: 8px;
+    margin-right:12px;
+    font-size: 16px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1); 
+    color:black;
+}
+
+.search-container button {
+    float: right;
+    padding: 8px 10px;
+    margin-top: 8px;
+    margin-right:17px;
+    padding:7px;
+    background-color: rgb(149, 4, 4);
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; 
+}
+
+.search-container button:hover {
+    background-color: #04AA6D;
+}
+
+
+.div2{
+    
+    height:400px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;      
+}
+
+
+.image-container {
+    width: 25%;    
+    text-align: center; 
+    box-sizing: border-box; 
+    position: relative;
+    margin-top:20px;  
+}
+
+.image-container > img{
+
+    max-width:100%;
+    height:280px;
+}
+
+.h2{
+
+    margin-bottom:10px;
+}
+
+.price{
+
+    color:red;
+}
+
+
+.div3{
+    background-color:rgb(17, 69, 190);
+    height:400px;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
+}
+
+.h1div3{
+    font-size:40px;
+    padding-top:70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h2div3{
+    font-size:35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+}
+
+.pdiv3{
+    padding:20px;
+    width:40%;
+    margin: 0 auto;
+}
+
+
+
+
+.footer{
+    color:white;
+    background-color:rgb(8, 27, 71);
+    height:93px;
+    width:100%;
+    padding:10px;
+}
+
+#loginbody{
+    font-family: Arial, sans-serif;
+    background-image: url('../images/housebg.jpg');
+}
+
+.h1login{
+    font-size:35px;
+    color:white;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top:200px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.inputlogin {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color:rgb(149, 4, 4);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #04AA6D;
+}
+
+.div2property {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping to create new rows */
+    justify-content: space-between;
+    color: white;
+    background-image: url('../images/housebg-blurred.jpg');
+    padding-bottom:20px;
+}
+.description{
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:17px;
+    width:65%;
+    margin: 0 auto;
+}
+
+.price2{
+
+    color:rgb(240, 130, 27);
+}
